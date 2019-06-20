@@ -1,0 +1,27 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y -20 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 0 -defaultsOSRD
+preplace portBus led -pg 1 -y 160 -defaultsOSRD
+preplace inst myip_0 -pg 1 -lvl 1 -y 160 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -y -50 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -y -90 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y -30 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 4 470J 0 850 -170 N -170 1190
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 480J 10 860
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 3 30 -160 510J 20 870
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 500
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 460J 40 860 70 1150 0 N
+preplace netloc myip_0_led 1 1 4 NJ 160 NJ 160 NJ 160 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 -170 490 30 880
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 4 40 230 NJ 230 NJ 230 1140
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 2 1 N
+levelinfo -pg 1 0 250 680 1010 1170 1210 -top -180 -bot 320
+",
+}
+{
+   da_axi4_cnt: "1",
+   da_ps7_cnt: "1",
+}
